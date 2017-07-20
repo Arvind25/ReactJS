@@ -1,0 +1,38 @@
+.header-main {
+  text-align: left;
+}
+
+.header-logo{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin-right: -3px;
+}
+
+.header-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  text-align: left;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding-left: 20px; 
+  height: 100px;  
+}
+.nav-wrapper{  
+  padding-top: 30px;
+  float: right;
+  padding-right: 100px;
+}
